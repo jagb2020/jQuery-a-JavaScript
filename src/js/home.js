@@ -75,6 +75,9 @@ fetch('https://randomuser.me/api/dsfdsfsd')
     const data = await response.json()
     return data;
   }
+  // const actionList = await getData('https://yts.am/api/v2/list_movies.json?genre=action')
+  // const dramaList = await getData('https://yts.am/api/v2/list_movies.json?genre=drama')
+  // const animationList = await getData('https://yts.am/api/v2/list_movies.json?genre=animation')
   const actionList = await getData('https://yts.mx/api/v2/list_movies.json?genre=action')
   const dramaList = await getData('https://yts.mx/api/v2/list_movies.json?genre=drama')
   const animationList = await getData('https://yts.mx/api/v2/list_movies.json?genre=animation')
